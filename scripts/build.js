@@ -20,4 +20,5 @@ yarn build core --formats cjs
 
 const fs = require('fs')
 const dirs =fs.readdirSync('packages')
-console.log(dirs,'---dirs')
+console.log(dirs,'---dirs')  //[ 'reactivity', 'shared', 'vue' ] ---dirs
+
