@@ -1,6 +1,6 @@
 {
   "name": "@vue/reactivity",
-  "version": "1.0.0",
+  "version": "3.2.10",
   "main": "index.js",
   "license": "ISC",
   "buildOptions": {

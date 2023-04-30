@@ -1,6 +1,6 @@
 {
   "name": "vue-core",
-  "version": "1.0.0",
+  "version": "3.2.10",
   "description": "",
   "packageManager": "pnpm@7.1.0",
   "main": "index.js",
