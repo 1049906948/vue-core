@@ -17,8 +17,14 @@ yarn build core --formats cjs
 
 //进行打包 monerepo
 //获取 打包 目录
-
 const fs = require('fs')
-const dirs =fs.readdirSync('packages')
+const dirs =fs.readdirSync('packages').filter(item=>{
+    if(!fs.statSync(`packages/${item}`).isDirectory()){
+        return false
+    }
+    return true
+})
+
+
 console.log(dirs,'---dirs')  //[ 'reactivity', 'shared', 'vue' ] ---dirs
 
