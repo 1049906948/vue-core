@@ -2,6 +2,7 @@
   "name": "vue-core",
   "version": "1.0.0",
   "description": "",
+  "packageManager": "pnpm@7.1.0",
   "main": "index.js",
   "keywords": [],
   "author": "ck",
@@ -10,6 +11,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
   "devDependencies": {
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
